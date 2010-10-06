@@ -1,7 +1,7 @@
 ActiveModel::StateMachine
 =========================
 
-I believe this was pulled from Rails 3 at the last minute, not much documentation exists, but it works very nicely.
+I believe this was pulled from Rails 3 at the last minute because they decided they didn't need a state machine (Strongly disagree, especially considering it was a mixin), not much documentation exists, but it works very nicely.
 
 Add this line to your bundle:
 
@@ -38,3 +38,5 @@ Traffic light example
     light.current_state       #=> :yellow
     light.change_color!       #=> true
     "That'll be $250."
+    
+EnvyLabs also wrote something about it back in the day http://blog.envylabs.com/2009/08/the-rails-state-machine/
