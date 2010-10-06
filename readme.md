@@ -5,4 +5,4 @@ I believe this was pulled from Rails 3 at the last minute, not much documentatio
 
 Add this line to your bundle:
 
-    gem 'state_machine', :git => 'git://github.com/ivanvanderbyl/statemachine.git', :require => 'active_model/state_machine'
+    gem 'state_machine', :git => 'git://github.com/ivanvanderbyl/state_machine.git', :require => 'active_model/state_machine'
